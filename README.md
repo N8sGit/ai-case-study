@@ -2,7 +2,7 @@
 
 ## Overview and Origin
 
-Pinecone is a vector database provider founded in 2019 by the former researcher director at AWS Edo Liberty, and is headquartered in San Francisco with additional offices in New York City and Tel Aviv. Pinecone aims to be a leading provider of vector databases, an important component of the increasingly standard Retrieval Augmented Generation (RAG) architecture for generative AI applications. As one of the first, and highest profile movers in this space, Pinecone is already showing many promising growth signs and indications that it is on track to become a household name in the AI industry.
+Pinecone is a vector database provider founded in 2019 by the former Research Director at AWS Edo Liberty, and is headquartered in San Francisco with additional offices in New York City and Tel Aviv. Pinecone aims to be a leading provider of vector databases, an important component of the increasingly standard Retrieval Augmented Generation (RAG) architecture for generative AI applications. As one of the first, and highest profile movers in this space, Pinecone is already showing many promising growth signs and indications that it is on track to become a household name in the AI industry.
 
 ## What problem does Pinecone address?
 
