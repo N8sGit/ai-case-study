@@ -32,7 +32,7 @@ RAG is a software architecture design pattern for AI applications that is rapidl
 
 The RAG architecture also permits NLP apps to associate its statements with sources to provide citations and similar factual supporting material, improving the traceability, credibility, and explainability of these model’s behavior. 
 
-The goal of RAG is to make such AI apps more factual and informed by giving it access to domain-specific data and encouraging it to rely on this information as its main “source of truth”. The RAG pattern has had much success in mitigating the problem of AI hallucinations—the tendency for models to make false claims to fill in gaps in its knowledge. RAG architecture directs models to favor the provided source of truth over and above the models own speculations 
+The goal of RAG is to make such AI apps more factual and informed by giving it access to domain-specific data and encouraging it to rely on this information as its main “source of truth”. The RAG pattern has had much success in mitigating the problem of AI hallucinations—the tendency for models to make false claims to fill in gaps in its knowledge with its own confabulations. RAG architecture directs models to favor the provided source of truth over and above the models own speculations 
 
 [^2]([https://thenewstack.io/reduce-ai-hallucinations-with-retrieval-augmented-generation/])
 
