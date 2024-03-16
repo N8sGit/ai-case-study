@@ -8,13 +8,13 @@ Pinecone is a vector database provider founded in 2019 by the former Research Di
 
 With the sudden explosion of generative AI applications hitting the market, a new approach to data management is needed that complements how these models work. More conventional databases, which use scalar values to index data, struggle to interoperate with large language model (LLM) applications that involve more open-ended, complex and often vague natural language requests. To work with scalar databases, a language model would have to correctly classify a verbal request and translate it into a valid expression in a query language, such as SQL. Then that expression would need to be extracted and sent to the database through an explicitly defined API. What the database returns would then need to be reinserted into the prompt at post-processing before the final result is interpreted by the LLM and presented to the user. (Author's note: I know this because this is what we had to do at my last job before we used Pinecone.)
 
-This whole process is brittle, error prone, and unpredictable. Given the stochastic, indeterministic behavior of LLMs, there’s no guarantee that it will reliably translate a verbal request into the correct query expression and succeed at every one of these steps with guranteed reliability. When dealing with potentially sensitive factual data, it is imperative that LLMs working with that data do not play “fast and loose” when interpreting and presenting it, either.
+This whole process is brittle, error prone, and unpredictable. Given the stochastic, indeterministic behavior of LLMs, there’s no guarantee that it will reliably translate a verbal request into the correct query expression and succeed at every one of these steps with guranteed reliability. In other words, entrusting an LLM's code generation capababilities to handle what should be deterministic database retrieval operations is risky. When dealing with potentially sensitive factual data, it is imperative that LLMs working with that data do not play “fast and loose” when interpreting and presenting it.
 
 Instead, vector databases more naturally align with the workings of neural network models, providing what is effectively a factual “long term memory” store for them.  
 
 ## Who is Pinecone for?
 
-Pinecone is for developers working on AI applications and companies looking to provide AI with factual knowledge bases and data unique to their platforms. 
+Pinecone is for developers working on AI applications and companies looking to provide AI with factual knowledge bases and data specific to their platforms or services. 
 
 Having now explained what Pinecone does and why it’s doing it, we will now define and explain two key technical concepts at the heart of Pinecone’s product: vector databases and retrieval augmented generation.
 
